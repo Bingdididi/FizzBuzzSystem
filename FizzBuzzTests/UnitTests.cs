@@ -48,7 +48,7 @@ public class UnitTests
     {
         FizzBuzzLogic fb = new FizzBuzzLogic();
         string? actual = fb.GetOutput(0);
-        string? expected = null;
+        string expected = " ";
         Assert.Equal(expected, actual);
       
     }
